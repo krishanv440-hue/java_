@@ -38,7 +38,7 @@ public class Main {
     public static void main(String[] args) {
         // Create objects
         BankAccount acc1 = new BankAccount("Krishnan", 1000.0);
-        BankAccount acc2 = new BankAccount("Barath);
+        BankAccount acc2 = new BankAccount("Barath",500.0);
 
         // Perform actions
         acc1.displayAccountInfo();
@@ -50,3 +50,4 @@ public class Main {
     }
 
 }
+
